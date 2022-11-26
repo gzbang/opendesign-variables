@@ -1,0 +1,62 @@
+// 颜色-深色
+:root {
+  // 品牌色
+  --o-color-primary1: #406fe7; // 常规 var(--o-color-kleinblue8)
+  --o-color-primary2: #6b95ff; // 悬浮 var(--o-color-kleinblue9)
+  --o-color-primary3: #002fa7; // 确认 var(--o-color-kleinblue5)
+  --o-color-primary4: #0c2360; // 禁用 var(--o-color-kleinblue3)
+
+  // 辅助色
+  --o-color-major1: #fff36a; // var(--o-color-yellow8)
+
+  // 成功色
+  --o-color-success1: #6dc335; // 常规 var(--o-color-green5)
+  --o-color-success2: #93e95b; // 悬浮 var(--o-color-green7)
+  --o-color-success3: #62af30; // 确认 var(--o-color-green4)
+  --o-color-success4: #355f1a; // 禁用 var(--o-color-green2)
+
+  // 告警色
+  --o-color-warning1: #ff8e36; // 常规 var(--o-color-orange5)
+  --o-color-warning2: #ffb45c; // 悬浮 var(--o-color-orange7)
+  --o-color-warning3: #ff801c; // 确认 var(--o-color-orange4)
+  --o-color-warning4: #9b370e; // 禁用 var(--o-color-orange1)
+
+  // 错误色
+  --o-color-danger1: #f3524d; // 常规 var(--o-color-red5)
+  --o-color-danger2: #ff7873; // 悬浮 var(--o-color-red7)
+  --o-color-danger3: #f13b35; // 确认 var(--o-color-red4)
+  --o-color-danger4: #850d09; // 禁用 var(--o-color-red1)
+
+  // info色
+  --o-color-info1: #242424; // 常规 var(--o-color-greyblack2)
+  --o-color-info2: #2e2e2e; // 悬浮 var(--o-color-greyblack3)
+  --o-color-info3: #1e1e1e; // 确认 var(--o-color-neutral10)
+  --o-color-info4: #151515; // 禁用 var(--o-color-neutral2)
+
+  // 背景色
+  --o-color-bg1: #121212; // 一级容器背景色(页面全局) var(--o-color-neutral1)
+  --o-color-bg2: #1e1e1e; // 二级容器背景色 var(--o-color-greyblack1)
+  --o-color-bg3: #242424; // 三级容器背景色  var(--o-color-greyblack2)
+  --o-color-bg4: #2e2e2e; // 四级容器背景色 var(--o-color-greyblack3)
+
+  // 文字颜色
+  --o-color-text1: #ffffff; // 强调/正文标题 浅色 var(--o-color-white)
+  --o-color-text1_inverse: #000000; // 强调/正文标题 深色 var(--o-color-black)
+  --o-color-text2: #e5e5e5; // 次强调/正文标题 浅色 var(--o-color-neutral11);
+  --o-color-text2_inverse: #3f3f3f; // 次强调/正文标题 深色 var(--o-color-neutral4);
+  --o-color-text3: #b2b2b2; // 次要信息/正文 浅色 var(--o-color-neutral9);
+  --o-color-text3_inverse: #707070; // 次要信息/正文 深色 var(--o-color-neutral6);
+  --o-color-text4: #e5e5e5; // 置灰信息 浅色 var(--o-color-neutral11)
+  --o-color-text4_inverse: #cccccc; // 置灰信息 深色 var(--o-color-10);
+
+
+  // 遮罩色
+  --o-color-mask1: rgba(0, 0, 0, 0.5);
+
+  // 边框色
+  --o-color-border1: #b2b2b2; // var(--o-color-neutral9)
+  --o-color-border2: #2d2d2d; // var(--o-color-neutral3)
+
+  // 分割线颜色
+  --o-color-division1: #2d2d2d; // var(--o-color-neutral3)
+}

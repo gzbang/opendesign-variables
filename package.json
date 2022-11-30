@@ -1,0 +1,29 @@
+{
+  "name": "opendesign-variables",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev app",
+    "build": "vitepress build app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzbang/opendesign-variables.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzbang/opendesign-variables/issues"
+  },
+  "homepage": "https://github.com/gzbang/opendesign-variables#readme",
+  "devDependencies": {
+    "node-xlsx": "^0.21.0",
+    "sass": "^1.56.1",
+    "vitepress": "1.0.0-alpha.29"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  }
+}

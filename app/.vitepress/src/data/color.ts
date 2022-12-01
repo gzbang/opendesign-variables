@@ -67,7 +67,10 @@ export default [
       { name: 'text4_inverse', val: '#e5e5e5' },
     ],
   },
-  { name: '遮罩色', content: [{ name: 'mask1' }] },
+  {
+    name: '遮罩色',
+    content: [{ name: 'mask1', val: 'rgba(0, 0, 0, 0.5)' }],
+  },
   {
     name: '边框色',
     content: [

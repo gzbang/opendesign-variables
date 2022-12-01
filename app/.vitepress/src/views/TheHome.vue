@@ -26,7 +26,7 @@ import shadowVariables from '@/data/shadow';
   <template v-for="item in fontVariables" :key="item.name">
     <h2>{{ item.name }}</h2>
     <div v-for="info in item.content" :key="info.name" class="o-variable-table">
-      <span class="variable-name">{{ `--o-color-${info.name}` }}</span>
+      <span class="variable-name">{{ `--o-${info.name}` }}</span>
       <div class="variable-content">
         <div class="variable-sample" :style="{ background: info.val }"></div>
         <span class="variable-val">{{ info.val }}</span>
@@ -38,7 +38,7 @@ import shadowVariables from '@/data/shadow';
   <template v-for="item in gapVariables" :key="item.name">
     <h2>{{ item.name }}</h2>
     <div v-for="info in item.content" :key="info.name" class="o-variable-table">
-      <span class="variable-name">{{ `--o-color-${info.name}` }}</span>
+      <span class="variable-name">{{ `--o-${info.name}` }}</span>
       <div class="variable-content">
         <div class="variable-sample" :style="{ background: info.val }"></div>
         <span class="variable-val">{{ info.val }}</span>
@@ -50,7 +50,7 @@ import shadowVariables from '@/data/shadow';
   <template v-for="item in iconSizeVariables" :key="item.name">
     <h2>{{ item.name }}</h2>
     <div v-for="info in item.content" :key="info.name" class="o-variable-table">
-      <span class="variable-name">{{ `--o-color-${info.name}` }}</span>
+      <span class="variable-name">{{ `--o-${info.name}` }}</span>
       <div class="variable-content">
         <div class="variable-sample" :style="{ background: info.val }"></div>
         <span class="variable-val">{{ info.val }}</span>
@@ -62,7 +62,7 @@ import shadowVariables from '@/data/shadow';
   <template v-for="item in radiusVariables" :key="item.name">
     <h2>{{ item.name }}</h2>
     <div v-for="info in item.content" :key="info.name" class="o-variable-table">
-      <span class="variable-name">{{ `--o-color-${info.name}` }}</span>
+      <span class="variable-name">{{ `--o-${info.name}` }}</span>
       <div class="variable-content">
         <div class="variable-sample" :style="{ background: info.val }"></div>
         <span class="variable-val">{{ info.val }}</span>
@@ -74,7 +74,7 @@ import shadowVariables from '@/data/shadow';
   <template v-for="item in shadowVariables" :key="item.name">
     <h2>{{ item.name }}</h2>
     <div v-for="info in item.content" :key="info.name" class="o-variable-table">
-      <span class="variable-name">{{ `--o-color-${info.name}` }}</span>
+      <span class="variable-name">{{ `--o-${info.name}` }}</span>
       <div class="variable-content">
         <div class="variable-sample" :style="{ background: info.val }"></div>
         <span class="variable-val">{{ info.val }}</span>
